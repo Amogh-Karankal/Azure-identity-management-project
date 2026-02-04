@@ -75,29 +75,23 @@ Administrative Units: 3
 ## Data Flow
 ```
 User Request
-│
-▼
+    │
+    ▼
 ┌─────────────────┐
 │  Entra ID       │
 │  Authentication │
 └────────┬────────┘
-│
-▼
+         │
+         ▼
 ┌─────────────────┐
-│  Conditional    │──── Risk Assessment
-│  Access Engine  │──── Location Check
-└────────┬────────┘──── Device Compliance
-│
-▼
-┌─────────────────┐
-│  Grant/Block    │
-│  Decision       │
+│  Conditional    │
+│  Access Engine  │
 └────────┬────────┘
-│
-┌────┴────┐
-▼         ▼
-Access    Challenge
-Granted   (MFA/Block)
+         │
+    ┌────┴────┐
+    ▼         ▼
+ Access    Challenge
+ Granted   (MFA/Block)
 ```
 
 ## High Availability Considerations
