@@ -78,7 +78,7 @@ Geographic-based blocking reduces attack surface by:
 
 | Test Date | Mode | Sign-ins Evaluated | Would Block | Issues/Observations |
 |-----------|------|-------------------|-------------|--------|
-| 2026-02-05 | Report-only | ~5 | 0 | No sign-ins from blocked countries detected. Policy ready for enforcement. |
+| 02/03/2026 | Report-only | ~5 | 0 | No sign-ins from blocked countries detected. Policy ready for enforcement. |
 
 ### Notes
 - All test sign-ins originated from United States
