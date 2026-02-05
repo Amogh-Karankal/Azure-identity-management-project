@@ -7,8 +7,8 @@
 | **Policy ID** | CA001 |
 | **Policy Name** | CA001-Block-Legacy-Authentication |
 | **State** | Report-only |
-| **Created** | [DATE] |
-| **Last Modified** | [DATE] |
+| **Created** | 02/03/2026 |
+| **Last Modified** | 02/03/2026 |
 
 ## Purpose
 
@@ -75,7 +75,7 @@ Legacy authentication protocols (IMAP, POP3, SMTP, older Office clients) are use
 
 | Test Date | Mode | Sign-ins Evaluated | Would Block | Issues |
 |-----------|------|-------------------|-------------|--------|
-| [DATE] | Report-only | [NUMBER] | [NUMBER] | [NOTES] |
+| 02/03/2026 | Report-only | 10-15 | 0 | None |
 
 ## Rollback Procedure
 
